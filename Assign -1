@@ -1,0 +1,71 @@
+Q1 - Take 2 integer values in two variables x and y and print their product. 
+
+import java.util.*;
+public class Main{
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int z = x * y;
+        System.out.println(z);
+    }
+}
+
+
+Q2 - Print the ASCII value of character ‘U’
+
+import java.util.*;
+public class Main{
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        char a = sc.next().charAt(0);
+        int b =a;
+        System.out.println("The ASCII value of the given character is : " + b);
+    }
+}
+
+Q3 - Write a Java program to take the length and breadth of a rectangle and print its area. 
+
+import java.util.*;
+public class Main{
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of the length");
+        int length = sc.nextInt();
+        System.out.println("Enter the value of the breadth");
+        int breadth = sc.nextInt();
+        int area = length * breadth;
+        System.out.println("Area of the Rectangle : " + area);
+    }
+}
+
+Q4 - Write a Java program to calculate the cube of a number.
+
+import java.util.*;
+public class Main{
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        
+        int cube = a * a * a;
+        System.out.println(cube);
+    }
+}
+
+Q5 - Write a Java program to swap two numbers with the help of a third variable.
+
+
+import java.util.*;
+public class Main{
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the values x and y ");
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        System.out.println("Before swapping : " + x + "," + y);
+        int temp = x;
+        x = y;
+        y = temp;
+        System.out.println( "After swapping : " + x + "," + y);
+    }
+}
